@@ -15,4 +15,14 @@ public interface UserLoginService extends IService<UserLogin> {
     void insertUserInfo(UserLogin member);
 
     UserLogin getById(String id);
+
+    UserLogin getByAccount(String account);
+    //查询用户账户
+    boolean queryByAccount(String loginAct);
+
+    //查询用户账户
+    boolean queryPhone(String phone);
+
+    //验证用户密码
+    boolean queryByPwd(String loginAct, String loginPwd);
 }

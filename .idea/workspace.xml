@@ -5,38 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1683066c-0027-477c-b6f0-df9f1752a924" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/exceptionhandler/XiaoXiaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/handler/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/mapper/UserLoginMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/pojo/UserLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/utils/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/utils/UUIDUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/SpringCloudWxLoginApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/controller/WxLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/service/Impl/UserLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/service/UserLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/util/ConstantWxUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/util/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/test/java/com/kuang/SpringCloudWxLoginApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/test/java/com/kuang/service/Impl/UserLoginServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/controller/AccountLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/pojo/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/kuang/springcloud/pojo/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api/target/classes/com/kuang/springcloud/pojo/UserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api/target/classes/com/kuang/springcloud/pojo/UserLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/service/Impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/service/Impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/service/UserLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/main/java/com/kuang/service/UserLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/test/java/com/kuang/service/Impl/UserLoginServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/src/test/java/com/kuang/service/Impl/UserLoginServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/target/classes/com/kuang/service/Impl/UserLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/target/classes/com/kuang/service/Impl/UserLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/target/classes/com/kuang/service/UserLoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/target/classes/com/kuang/service/UserLoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/target/test-classes/com/kuang/service/Impl/UserLoginServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-wxLogin-8006/target/test-classes/com/kuang/service/Impl/UserLoginServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -111,6 +91,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kuang.controller" />
       <recent name="com.kuang.service.Impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,23 +101,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringCloudWxLoginApplication">
-    <configuration name="SpringCloudWxLoginApplicationTests.getOpenIdMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-wxLogin-8006" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kuang" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.SpringCloudWxLoginApplicationTests" />
-      <option name="METHOD_NAME" value="getOpenIdMemberTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserLoginServiceImplTest.getOpenIdMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginServiceImplTest.getByAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-wxLogin-8006" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang.service.Impl" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.service.Impl.UserLoginServiceImplTest" />
-      <option name="METHOD_NAME" value="getOpenIdMemberTest" />
+      <option name="METHOD_NAME" value="getByAccount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserLoginServiceImplTest.insertUserInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginServiceImplTest.queryByAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-wxLogin-8006" />
       <extension name="coverage">
         <pattern>
@@ -178,23 +143,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang.service.Impl" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.service.Impl.UserLoginServiceImplTest" />
-      <option name="METHOD_NAME" value="insertUserInfoTest" />
+      <option name="METHOD_NAME" value="queryByAccount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserLoginServiceTest.getUserInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginServiceImplTest.queryByPhone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-wxLogin-8006" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kuang.*" />
+          <option name="PATTERN" value="com.kuang.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kuang" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.UserLoginServiceTest" />
-      <option name="METHOD_NAME" value="getUserInfoTest" />
+      <option name="PACKAGE_NAME" value="com.kuang.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.service.Impl.UserLoginServiceImplTest" />
+      <option name="METHOD_NAME" value="queryByPhone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginServiceImplTest.queryByPwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-wxLogin-8006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.service.Impl.UserLoginServiceImplTest" />
+      <option name="METHOD_NAME" value="queryByPwd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserLoginServiceImplTest.getByAccount" />
+        <item itemvalue="JUnit.UserLoginServiceImplTest.queryByPwd" />
+        <item itemvalue="JUnit.UserLoginServiceImplTest.queryByPhone" />
+        <item itemvalue="JUnit.UserLoginServiceImplTest.queryByAccount" />
         <item itemvalue="JUnit.UserLoginServiceImplTest.getUserInfoById" />
-        <item itemvalue="JUnit.UserLoginServiceImplTest.insertUserInfoTest" />
-        <item itemvalue="JUnit.UserLoginServiceImplTest.getOpenIdMemberTest" />
-        <item itemvalue="JUnit.SpringCloudWxLoginApplicationTests.getOpenIdMemberTest" />
-        <item itemvalue="JUnit.UserLoginServiceTest.getUserInfoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +246,12 @@
       <workItem from="1640880826402" duration="3039000" />
       <workItem from="1640918453396" duration="57000" />
       <workItem from="1641967358462" duration="430000" />
+      <workItem from="1641967882814" duration="3365000" />
+      <workItem from="1641983401497" duration="710000" />
+      <workItem from="1641985058623" duration="2235000" />
+      <workItem from="1642042864000" duration="11103000" />
+      <workItem from="1642065834156" duration="2120000" />
+      <workItem from="1642080796384" duration="266000" />
     </task>
     <servers />
   </component>

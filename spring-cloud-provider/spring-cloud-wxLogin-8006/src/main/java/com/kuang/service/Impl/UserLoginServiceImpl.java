@@ -44,15 +44,97 @@ public class UserLoginServiceImpl extends ServiceImpl<UserLoginMapper, UserLogin
     @Override
     public void insertUserInfo(UserLogin member) {
         int insert = baseMapper.insert(member);
-        System.out.println(insert);
         if(insert != 1){
             throw new XiaoXiaException(20001 , "插入失败");
         }
     }
 
+    /**
+     * 根据id查询用户
+     * @param id
+     * @return 用户实体信息
+     */
     @Override
     public UserLogin getById(String id) {
         UserLogin userLogin = userLoginMapper.selectById(id);
         return userLogin;
+    }
+
+    /**
+     * 根据用户账号进行验证
+     * @param loginAct
+     * @return true为存在，false为不存在用户
+     */
+    @Override
+    public boolean queryByAccount(String loginAct) {
+        boolean flag = true;
+        QueryWrapper<UserLogin> wrapper = new QueryWrapper<>();
+        wrapper.eq("account" , loginAct);
+        UserLogin member = userLoginMapper.selectOne(wrapper);
+        if(member != null){
+            if(member.getIsDisabled()){
+                flag = false;
+            }
+        } else {
+            flag = false;
+        }
+        return flag;
+    }
+
+    /**
+     * 根据用户账号密码进行验证
+     * @param loginAct 账号
+     * @param loginPwd 密码
+     * @return true正确，false错误
+     */
+    @Override
+    public boolean queryByPwd(String loginAct, String loginPwd) {
+        boolean flag = true;
+        QueryWrapper<UserLogin> wrapper = new QueryWrapper<>();
+        wrapper.eq("account" , loginAct);
+        wrapper.eq("password" , loginPwd);
+        UserLogin member = userLoginMapper.selectOne(wrapper);
+        if(member != null){
+            if(member.getIsDisabled()){
+                flag = false;
+            }
+        } else {
+            flag = false;
+        }
+        return flag;
+    }
+
+    /**
+     * 根据电话号进行验证
+     * @param phone 手机号
+     * @return true为存在，false为不存在
+     */
+    @Override
+    public boolean queryPhone(String phone) {
+        boolean flag = true;
+        QueryWrapper<UserLogin> wrapper = new QueryWrapper<>();
+        wrapper.eq("mobile" , phone);
+        UserLogin member = userLoginMapper.selectOne(wrapper);
+        if(member != null){
+            if(member.getIsDisabled()){
+                flag = false;
+            }
+        } else {
+            flag = false;
+        }
+        return flag;
+    }
+
+    /**
+     * 根据用户账号获取用户信息
+     * @param account 用户账号
+     * @return 返回用户信息
+     */
+    @Override
+    public UserLogin getByAccount(String account) {
+        QueryWrapper<UserLogin> wrapper = new QueryWrapper<>();
+        wrapper.eq("account" , account);
+        UserLogin member = userLoginMapper.selectOne(wrapper);
+        return member;
     }
 }

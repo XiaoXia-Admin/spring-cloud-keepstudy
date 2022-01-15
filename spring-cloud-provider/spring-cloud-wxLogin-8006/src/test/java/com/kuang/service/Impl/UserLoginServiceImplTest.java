@@ -67,4 +67,40 @@ class UserLoginServiceImplTest {
         UserLogin member = userLoginService.getById(id);
         System.out.println(member);
     }
+
+    /**
+     * 根据用户账号进行验证
+     */
+    @Test
+    void queryByAccount() {
+        boolean flag = userLoginService.queryByAccount("14764795");
+        System.out.println(flag);
+    }
+
+    /**
+     * 根据用户账号进行验证
+     */
+    @Test
+    void queryByPhone() {
+        boolean flag = userLoginService.queryPhone("18345185287");
+        System.out.println(flag);
+    }
+
+    /**
+     * 根据用户账号密码进行验证
+     */
+    @Test
+    void queryByPwd() {
+        boolean flag = userLoginService.queryByPwd("14764794", "138450");
+        System.out.println(flag);
+    }
+
+    /**
+     * 根据用户账号查询用户信息
+     */
+    @Test
+    void getByAccount() {
+        UserLogin byAccount = userLoginService.getByAccount("14764794");
+        System.out.println(byAccount);
+    }
 }

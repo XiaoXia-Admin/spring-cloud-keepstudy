@@ -69,6 +69,16 @@ public class UserLogin implements Serializable {
     private String sign;
 
     /**
+     * 用户地址
+     */
+    private String address;
+
+    /**
+     * 用户账号
+     */
+    private String account;
+
+    /**
      * 是否禁用 1（true）已禁用，  0（false）未禁用
      */
     private Boolean isDisabled;
